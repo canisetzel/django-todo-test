@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'todo',
+        'NAME': 'db',
         'USER': 'an',
         'PASSWORD': 'an',
         'HOST': '10.131.3.15',
