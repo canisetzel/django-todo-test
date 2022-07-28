@@ -15,4 +15,4 @@ sqlparse==0.4.1
 uritemplate==3.0.1
 urllib3==1.26.2
 django-cors-headers==3.4.0
-psycopg2>=2.4.0
+psycopg2-binary>=2.4.0
