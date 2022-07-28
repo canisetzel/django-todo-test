@@ -84,8 +84,12 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'todo',
+        'USER': 'an',
+        'PASSWORD': 'an',
+        'HOST': '10.131.3.15',
+        'PORT': '5432',
     }
 }
 
